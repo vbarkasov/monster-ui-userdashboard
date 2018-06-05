@@ -1,0 +1,41 @@
+@import url('../submodules/mobile/mobile.css');
+@import url('../submodules/user/user.css');
+@import url('../submodules/voicemail/voicemail.css');
+
+/*
+ * Monster UI layout fixes
+ */
+#userdashboard_app_container .app-subnav-wrapper {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#userdashboard_app_container .app-subnav-wrapper .navbar-menu {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*
+ * App styles
+ */
+#userdashboard_app_container .app-content-wrapper {
+	background: white;
+	border-bottom: 1px solid #CCC;
+}
+
+#userdashboard_app_container .app-content-wrapper,
+#userdashboard_app_container .app-layout .app-content-wrapper.subnav-enabled {
+	padding: 20px 20px 25px;
+}
+
+#userdashboard_app_container .content-item {
+	border: 1px solid #c0c0c9;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 5px 20px 25px;
+}
+
+#userdashboard_app_container .content-item h3 {
+	font-size: 23px;
+	font-weight: normal;
+}

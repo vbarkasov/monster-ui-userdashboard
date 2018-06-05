@@ -1,0 +1,31 @@
+{
+	"name": "userdashboard",
+	"i18n": {
+		"en-US": {
+			"label": "User Dashboard",
+			"description": "The User Dashboard app is intended to be used by individual end-users to change settings at a user-level.",
+			"extended_description": "",
+			"features": [
+				"Call forward",
+				"Out of office",
+				"Voicemail",
+				"Mobile"
+			]
+		}
+	},
+	"tags": [],
+	"icon": "userdashboard_app.png",
+	"api_url": "http://10.26.0.41:8000/v2",
+	"author": "2600Hz",
+	"version": "1.0",
+	"license": "-",
+	"price": 0,
+	"screenshots": [
+		"screen_01.png"
+	],
+	"urls": {
+		"documentation": "{documentation_url}",
+		"howto": "{howto_video_url}"
+	},
+	"pvt_type": "app"
+}
